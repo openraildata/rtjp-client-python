@@ -105,7 +105,7 @@ instances of keys with that name from the dict:
     remove_keys_recursively(response_without_xml, '_raw_elements')
 ```
 
-The values we want are not in `response_without_xml`
+The values we want are now in `response_without_xml`
 
 In order to make use of the response we can parse it, let's get the departure time
 for each train:
